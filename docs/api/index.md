@@ -45,7 +45,7 @@ VSeacher.executeVideo('test.mp4')
     * speed_x: 对step进行整数倍的加速, 即 最终的step = step * speed_x, 默认为3
     * output_dir: 处理过程中产生的输出结果存放的目录, 若该处不指定, 且也没有进行[VSearcher.init()](#init)的初始化, 则路径为{project_dir}/static/vsearch-output/videos
 
-* 返回: [vo.VideoVO](./vo/#vo-video)
+* 返回: [vo.VideoVO](../vo/#videovo)
 
 ---
 ## executeChapter
@@ -56,7 +56,7 @@ VSeacher.executeVideo('test.mp4')
     * step: 视频遍历的帧间隔, 越大速度越快, 当取值为'fps'是为视频的帧率
     * speed_x: 对step进行整数倍的加速, 即 最终的step = step * speed_x
     * output_dir: 处理过程中产生的输出结果存放的目录, 若该处不指定, 且也没有进行VSearcher.init()的初始化, 则路径为{project_dir}/static/vsearch-output/videos
-* 返回：[vo.ChapterVO](./vo/#vo-chapter)
+* 返回：[vo.ChapterVO](../vo/#chaptervo)
 
 ---
 ## executeCourse
@@ -67,18 +67,18 @@ VSeacher.executeVideo('test.mp4')
     * step: 视频遍历的帧间隔, 越大速度越快, 当取值为'fps'是为视频的帧率
     * speed_x: 对step进行整数倍的加速, 即 最终的step = step * speed_x
     * output_dir: 处理过程中产生的输出结果存放的目录, 若该处不指定, 且也没有进行VSearcher.init()的初始化, 则路径为{project_dir}/static/vsearch-output/videos
-* 返回: [vo.CourseVO](./vo/#vo-course)
+* 返回: [vo.CourseVO](../vo/#coursevo)
 ---
 
 ## search
-搜索某个资源的内容，即视频中的内容，并返回[vo.ResourceVO](./vo/#resourcevo)的子类作为结果
+搜索某个资源的内容，即视频中的内容，并返回[vo.ResourceVO](../vo/#resourcevo)的子类作为结果
 
 
 * 参数:
-    * o_or_path: [vo.ResourceVO](./vo/#resourcevo), 即调用execute{Chapter | Course | Video}()返回的对象, 或者对象中o_path属性对应的pickle对象路径
+    * o_or_path: [vo.ResourceVO](../vo/#resourcevo), 即调用execute{Chapter | Course | Video}()返回的对象, 或者对象中o_path属性对应的pickle对象路径
     key: 关键字
 
-* 返回: vo.{[Chapter](./vo/#chaptervo) | [Course](./vo/#coursevo) | [Video](./vo/#videovo) }VO 对象作为结果
+* 返回: vo.{[ChapterVO](../vo/#chaptervo) | [CourseVO](../vo/#coursevo) | [VideoVO](../vo/#videovo) }对象作为结果
 
 ---
 
@@ -149,17 +149,17 @@ VSeacher.executeVideo('test.mp4')
 ---
 
 ## loadResource
-将处理输出的pickle对象文件, 载入为[vo.ResourceVO](./vo/#resourcevo)的子类对象
+将处理输出的pickle对象文件, 载入为[vo.ResourceVO](../vo/#resourcevo)的子类对象
 
 * 参数:
   * o_or_path: [vo.ResourceVO], 即调用execute{Chapter | Course | Video}()返回的对象, 或者对象中o_path属性对应的pickle对象路径
 
-* 返回: vo.{[Chapter](./vo/#chaptervo) | [Course](./vo/#coursevo) | [Video](./vo/#videovo) }VO 对象作为结果
+* 返回: vo.{[ChapterVO](../vo/#chaptervo) | [CourseVO](../vo/#coursevo) | [VideoVO](../vo/#videovo) }对象作为结果
 ---
 ## releaseResource
 释放o_path对应的pickle对象对应的所有存储资源
 * 参数:
-  * o_or_path: [vo.ResourceVO], 即调用execute{Chapter | Course | Video}()返回的对象, 或者对象中o_path属性对应的pickle对象路径
+  * o_or_path: [vo.ResourceVO](../vo/#resourcevo), 即调用VSearcher.execute{[Chapter](#executechapter) | [Course](#executecourse) | [Video](#executevideo)}()返回的对象, 或者对象中o_path属性对应的pickle对象路径
 ---
 
 ## ~~releaseByOutputDir~~

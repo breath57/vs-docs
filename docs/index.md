@@ -169,7 +169,7 @@ heroImage: "/images/vs-logo.ico"
 
 ## 简介
 
-结合AI算法，针对课件类视频的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该`vsearcher`库，并开源到`PyPI`, 核心使用方法见[VSearcher](./api/)。
+结合AI算法，针对课件类视频的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该`vsearcher`库，并开源到`PyPI`, 核心使用方法见[VSearcher](./api)。
 
 <!-- 为了展现该库的应用场景以及能力，研发了案例系统，包括：[Flask API]()、[Docker]()、[Pyintaller打包的exe程序]()和[基于AI的教学视频学习系统(Window桌面应用)]()。 -->
 

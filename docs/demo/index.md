@@ -61,7 +61,7 @@ flask run -h 0.0.0.0 -p 5000
 6. 即可访问API
 > http://127.0.0.1:5000/api/v1/video/get    
 
-具体的API接口文档，[点击查看](./vs-api/)
+具体的API接口文档，[点击查看](../vs-api/)
 
 
 ---

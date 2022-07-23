@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
 ```
 ::: tip
-更多高级用法请参照[VSeacher API](./api/)
+更多高级用法请参照[VSeacher API](../api/)
 :::
 
 ## 3. 问题

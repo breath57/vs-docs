@@ -1,11 +1,11 @@
 # View Object对象
 
-`视图对象(View Object，VO)`为[VSearcher](./api/#vsearcher-api)对各种资源处理后的结果返回的对象，或说内容装载对象。这些对象同时包括`属性`和`方法`。
+`视图对象(View Object，VO)`为[VSearcher](../api/#vsearcher-api)对各种资源处理后的结果返回的对象，或说内容装载对象。这些对象同时包括`属性`和`方法`。
 可以根据具体返回的数据，进行筛选以应对不同的需求，研发出更具体和复杂的功能。
 
 考虑到开发者有搭建API服务的需求，故`视图对象`的父类[BaseVO](#basevo)定义了`json()`方法，使得子类的`视图对象`可简单通过调用`view_oject.json()`就能实现序列化，而无需关注内部的结构考虑如何正确的序列化。
 
-例如：[VSearcher.executeVideo(video_file_path)](./api/#executevideo)方法的返回值为[vo.ResourceVO](#resourcevo)的子类[vo.VideoVO](#videovo)
+例如：[VSearcher.executeVideo(video_file_path)](../api/#executevideo)方法的返回值为[vo.ResourceVO](#resourcevo)的子类[vo.VideoVO](#videovo)
 
 * 使用: (注：不推荐外部进行实例化使用，因为该VO模块处于`_core`的包中，不希望对外使用)
     ```py

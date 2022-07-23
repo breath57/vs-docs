@@ -3,9 +3,9 @@
 
 
 * 注意：
-    * 优先推荐调用[VSearcher.init](./api/#init)方法进行设置相关参数, 若不满足需求再考虑修改上述配置中的参数。
+    * 优先推荐调用[VSearcher.init](../api/#init)方法进行设置相关参数, 若不满足需求再考虑修改上述配置中的参数。
     * 修改值等同于修改全局配置的默认值。
-    * 最好在使用[VSearcher](./api/)具体类方法之前进行赋值配置
+    * 最好在使用[VSearcher](../api/)具体类方法之前进行赋值配置
 ## 使用方法
 * 导入
   ```py
@@ -19,14 +19,14 @@
     Config.rootPath.output_search_result_dir = 'static/vs-out/search_result' # 搜索结果输出目录
     Config.performance.use_gpu = True # 若检测到可使用的GPU，则优先使用GPU加速
   ```
-  `注意：`下方两种通过[VSearcher](./api/)调用的方法与上述效果等同，并且**推荐优先使用**[VSearcher.init](./api/#init)
+  `注意：`下方两种通过[VSearcher](../api/)调用的方法与上述效果等同，并且**推荐优先使用**[VSearcher.init](../api/#init)
   ```py
   VSearcher.init(step=40, speed_x=3.5)
   VSearcher.setStep(step=40, speed_x=3.5)
   ```
 ---
 ## Config.args
-优先推荐调用[VSearcher.init](./api/#init)方法进行设置, 若不满足需求再考虑修改如下配置变量的值。
+优先推荐调用[VSearcher.init](../api/#init)方法进行设置, 若不满足需求再考虑修改如下配置变量的值。
 * 使用：Config.args.[参数名] = value
     * 案例:
         ```py
@@ -75,7 +75,7 @@
 
 ---
 ## Config.rootPath
-优先推荐调用[VSearcher.init](./api/#init)方法进行设置, 若不满足需求再考虑修改如下配置变量的值。
+优先推荐调用[VSearcher.init](../api/#init)方法进行设置, 若不满足需求再考虑修改如下配置变量的值。
 * 变量:
     * project_root_dir = "" # 项目的根路径, 默认为__main__所在目录路径
     * static_folder_dir = str(
