@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-d9ec0568\",\"path\":\"/vs-api/\",\"title\":\"VS Flask API\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[{\"level\":2,\"title\":\"获取视频\",\"slug\":\"获取视频\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"vs-api/index.md\"}")
