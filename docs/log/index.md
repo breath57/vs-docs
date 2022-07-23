@@ -2,7 +2,7 @@
 
 
 ## 最新更新
-1. [vo.VideoVO](/vo/#videovo)、[vo.ChapterVO](/vo/#chaptervo)、[vo.CourseVO](/vo/#coursevo)增加search、json和release方法，使用检索方法和释放资源更佳的简洁
+1. [vo.VideoVO](./vo/#videovo)、[vo.ChapterVO](./vo/#chaptervo)、[vo.CourseVO](./vo/#coursevo)增加search、json和release方法，使用检索方法和释放资源更佳的简洁
    
 `更新前的使用方式`
 ```python
@@ -24,6 +24,6 @@ executed_video.release()  # 释放资源
 print(executed_video.json())
 print(search_result.json())
 ```
-2. [vo.VideoVO](/vo/#videovo) 新增 cw_local 属性， 即课件的本地地址
+2. [vo.VideoVO](./vo/#videovo) 新增 cw_local 属性， 即课件的本地地址
 
-3. [VSearcher.executeChapter()](/api/#executechapter) and [VSearcher.executeCourse()](/api/#executecourse) 新增name参数，可以自定义输出的文件名
+3. [VSearcher.executeChapter()](./api/#executechapter) and [VSearcher.executeCourse()](./api/#executecourse) 新增name参数，可以自定义输出的文件名
