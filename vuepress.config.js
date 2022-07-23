@@ -4,7 +4,7 @@ module.exports = {
   lang: 'zh-CN',
   title: 'VSearcher',
   description: '国内为数不多的视频内容检索Python库',
-  base: '/',
+  base: '/vs-docs',
  
   markdown: {
     code: {

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-d9ec0568","path":"/vs-api/","title":"VS Flask API","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"\u83B7\u53D6\u89C6\u9891","slug":"\u83B7\u53D6\u89C6\u9891","children":[]}],"git":{},"filePathRelative":"vs-api/index.md"}');export{e as data};
