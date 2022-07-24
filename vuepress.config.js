@@ -9,13 +9,19 @@ module.exports = {
   markdown: {
     code: {
          lineNumbers: true, // 是否显示代码行，多少行之后开始显示的配置呢
-    }
+    },
+     level: [1, 2, 3, 4, 5, 6],
   },
   theme: defaultTheme({
     logo: '/images/vs-logo.ico',
-    repo: 'https://gitee.com/breath57/vs-docs',
+    repo: 'https://gitee.com/breath57/vsearch',
     repoLabel: "Gitee",
     docsDir: 'docs',
+    contributorsText: '贡献者',
+    lastUpdatedText: '最近一次更新',
+    contributors: true, // 显示贡献者
+    sidebarDepth: 5,
+    displayAllHeaders: true, // 默认值：false
     // 假如文档放在一个特定的分支下：
     docsBranch: 'master',
     editLinks: true,
@@ -23,37 +29,39 @@ module.exports = {
     selectLanguageText: '切换语言',
     sidebar: [
     {
-        text: '快速开始',
-        link: '/quick-start/'
+        text: '简介',
+        link: '/'
       },
+    '/quick-start/',
       {
-        text: 'VSearcher API',
-        link: '/api/',
-        // collapsible: true,
+        text: 'API',
+        link:'/api/',
       },
+      '/vs-config/',
+      '/vo/',
       {
-        text: '全局配置',
-        link: '/vs-config/'
+        text: '案例项目',
+         collapsible: true,
+        children:['/demo/搭建API服务.md','/demo/云部署问题.md','/demo/vs-api/','/demo/vs-proxy-api/']
       },
-      {
-        text: '视图对象',
-        link: '/vo/'
-      },
-    //   {
-    //     text: '案例项目',
-    //     link: '/demo/'
-    //   },
-    //  {
-    //     text: 'VS FLask API',
-    //     link: '/vs-api/'
-    //   },
-      {
-        text: '更新日志',
-        link: '/log/'
-      },
-    
+      '/log/',
       '/contact/',
       '/reference/'
+    ],
+    navbar: [
+        '/quick-start/',
+         {
+        text: 'API',
+        children: ['/api/','/demo/vs-api/','/demo/vs-proxy-api/'],
+      },
+       {
+        text: '案例项目',
+        children: [{
+            text: '搭建API服务',
+            link: '/demo/搭建API服务.md'
+        }],
+      },
+      '/contact/',
     ]
   })
 }

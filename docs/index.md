@@ -169,9 +169,9 @@ heroImage: "/images/vs-logo.ico"
 
 ## 简介
 
-结合AI算法，针对`教学类视频`的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该`vsearcher`库，并开源到`PyPI`, 核心使用方法见[VSearcher](./api)。
+结合AI算法，针对`教学类视频`的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该[vsearcher](https://gitee.com/breath57/vsearch)，并开源到[PyPI](https://pypi.org/project/vsearcher/), 核心使用方法见[VSearcher](./api)。
 
-<!-- 为了展现该库的应用场景以及能力，研发了案例系统，包括：[Flask API]()、[Docker]()、[Pyintaller打包的exe程序]()和[基于AI的教学视频学习系统(Window桌面应用)]()。 -->
+为了展现该库的应用场景以及能力，研发了案例系统，包括：[Flask API](./demo/#搭建API服务)、[Docker](./demo/#方式2-docker搭建)、[Pyintaller打包的exe程序](./demo/#方式3-vs-api-exe程序搭建)。
 
 此外，可轻松适配如下特殊场景的视频：`动画切换`，`内容递增`，`中英文内容`，`存在人像移动`
 
@@ -220,6 +220,6 @@ heroImage: "/images/vs-logo.ico"
 
 <div class='my-action-container' style='margin: .5em 0  3em 0;'>
     <RouterLink to='/quick-start/' class='my-action my-primary-action'> 快速开始 → </RouterLink>
-    <!-- <RouterLink to='/introduce/' class='my-action my-common-action'>介绍</RouterLink> -->
+    <a href='https://gitee.com/breath57/vsearch' class='my-action my-common-action'>项目Gitee</a>
 </div>
 

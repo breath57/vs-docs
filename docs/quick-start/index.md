@@ -1,20 +1,21 @@
-# 快速使用
+# 快速开始
 
 ## 1. 安装
 
-### `步骤 1` 安装Paddle框架(选择CPU或GPU其一安装即可)
-    
+### `步骤 1` 安装Paddle
 
-#### **CPU版:**
+::: tip 提示
+选择CPU或GPU其一安装即可
+:::
+* **CPU版:**
 ```sh
 python3 -m pip install paddlepaddle==2.3.0 -i https://mirror.baidu.com/pypi/simple
 ```
-**GPU版:** (通常需要安装CUDA等显卡适配软件)
-
-
+* **GPU版:** (通常需要安装CUDA等显卡适配软件)
 具体的安装方式，由于不同环境(Mac、Linux)的安装方式不同, 可[点击查看具体安装方式](https://www.paddlepaddle.org.cn/)
 
 ### `步骤 2` 安装vsearcher库
+
 ```sh
 pip install vsearcher==0.2.16
 ```
@@ -41,7 +42,7 @@ if __name__ == '__main__':
 更多高级用法请参照[VSeacher API](../api/)
 :::
 
-## 3. 问题
+## 3. 常见问题
 
 ### 3.1 在linux环境下出现cv2相关的异常问题
 

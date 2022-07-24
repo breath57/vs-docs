@@ -1,4 +1,4 @@
-# Config 全局配置
+# 全局配置
 涵盖vsearcher库的所有配置的入口, Config包含三个属性[args]()、[rootPath]()和[performance](#config-performance)。配置变量的默认值是经过无数次实验结果调试出来的，默认值在大多数场景已经可以取得不错的效果。
 
 

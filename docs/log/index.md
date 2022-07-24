@@ -1,5 +1,6 @@
 # 更新日志
 
+此处展示[vsearcher库](https://gitee.com/breath57/vsearch)的更新日志
 
 ## 最新更新
 1. [vo.VideoVO](../vo/#videovo)、[vo.ChapterVO](../vo/#chaptervo)、[vo.CourseVO](../vo/#coursevo)增加search、json和release方法，使用检索方法和释放资源更佳的简洁
