@@ -146,6 +146,7 @@ heroImage: "/images/vs-logo.ico"
     margin: 0 .27em;
     margin: .2em;
 }
+
 </style>
 
 <!-- <div class='logo'>
@@ -153,16 +154,16 @@ heroImage: "/images/vs-logo.ico"
 </div> -->
 
 <div class='tag-container'>
-<img src='https://img.shields.io/badge/最新版本-v0.2.16-3963bc.svg'/>
-<img src='https://img.shields.io/badge/build-passing-00d508.svg'/>
-<img src='https://img.shields.io/badge/license-MIT-f0f900.svg'/>
+<a href="https://pypi.org/project/vsearcher/"><img src='https://img.shields.io/badge/最新版本-v0.2.16-3963bc.svg'/></a>
+<a><img src='https://img.shields.io/badge/build-passing-00d508.svg'/></a>
+<a><img src='https://img.shields.io/badge/license-MIT-f0f900.svg'/></a>
 </div>
 
 <div class='tag-container'>
-    <img src='https://img.shields.io/badge/python-v3.8+-7efaff.svg'/>
-    <img src='https://img.shields.io/badge/setuptools-v59.8.0+-7ecaff.svg'/>
-    <img src='https://img.shields.io/badge/pip-v21.3.1+-00d5a8.svg'/>
-    <img src='https://img.shields.io/badge/opencv_python-v4.5.5-0fcff8.svg'/>
+    <a><img src='https://img.shields.io/badge/python-v3.8+-7efaff.svg'/></a>
+    <a><img src='https://img.shields.io/badge/setuptools-v59.8.0+-7ecaff.svg'/></a>
+    <a><img src='https://img.shields.io/badge/pip-v21.3.1+-00d5a8.svg'/></a>
+    <a><img src='https://img.shields.io/badge/opencv_python-v4.5.5-0fcff8.svg'/></a>
 </div>
 
 
