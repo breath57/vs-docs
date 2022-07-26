@@ -21,6 +21,7 @@ module.exports = {
     logo: '/images/vs-logo.ico',
     repo: 'https://gitee.com/breath57/vsearch',
     repoLabel: "Gitee",
+    docsRepo: 'https://gitee.com/breath57/vs-docs',
     docsDir: 'docs',
     contributorsText: '贡献者',
     lastUpdatedText: '最近一次更新',
