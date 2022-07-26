@@ -21,13 +21,14 @@ module.exports = {
     logo: '/images/vs-logo.ico',
     repo: 'https://gitee.com/breath57/vsearch',
     repoLabel: "Gitee",
-    docsRepo: 'https://gitee.com/breath57/vs-docs',
-    docsDir: 'docs',
+    
     contributorsText: '贡献者',
     lastUpdatedText: '最近一次更新',
     contributors: true, // 显示贡献者
     sidebarDepth: 5,
     displayAllHeaders: true, // 默认值：false
+    docsRepo: 'https://gitee.com/breath57/vs-docs',
+    docsDir: 'docs',
     // 假如文档放在一个特定的分支下：
     docsBranch: 'master',
     editLinks: true,

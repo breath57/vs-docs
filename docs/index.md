@@ -216,29 +216,20 @@ heroImage: "/images/vs-logo.ico"
 ### 1. 视频内容搜索
 
 <video class="my-video-container" controls>
-  <source src="/video/search-content.mp4" type="video/mp4">
-  <object data="/video/search-content.mp4" class="my-video-container" >
-    <embed src="/video/search-content.swf" class="my-video-container" >
-  </object>
+  <source src="http://rfiup5az9.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Fsearch-content.mp4" type="video/mp4">
 </video>
 
 ### 2. 搜索结果定位播放
 
 <video class="my-video-container" controls>
-  <source src="/video/locate-content.mp4" type="video/mp4">
-  <object data="/video/locate-content.mp4" class="my-video-container" >
-    <embed src="/video/locate-content.swf" class="my-video-container" >
-  </object>
+  <source src="http://rfiup5az9.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Flocate-content.mp4" type="video/mp4">
 </video>
 
 
 ### 3. 自动生成视频对应的pdf课件
 
 <video class="my-video-container" controls>
-  <source src="/video/download-pdf.mp4" type="video/mp4">
-  <object data="/video/download-pdf.mp4" class="my-video-container" >
-    <embed src="/video/download-pdf.swf" class="my-video-container" >
-  </object>
+  <source src="http://rfiup5az9.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Fdownload-pdf.mp4" type="video/mp4">
 </video>
 
 <!-- <img src="/images/gif/download_pdf.gif" style="width: 40em;" /> -->
