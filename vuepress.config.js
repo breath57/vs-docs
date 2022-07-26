@@ -1,12 +1,15 @@
 const { defaultTheme } = require("vuepress");
 
+const url_base = '/vs-docs'
+
 module.exports = {
   lang: 'zh-CN',
   title: 'VSearcher官网',
   description: '国内为数不多的教学视频内容检索Python库',
-  base: '/vs-docs',
+  base: url_base,
   head: [
-    ['link', { rel: 'icon', href: '/vs-docs/images/vs-logo.ico' }]
+    // ['link', { rel: 'icon', href: `/vs-logo-128.png` }] # 本地调试 不用加 url_base
+    ['link', { rel: 'icon', href: `${url_base}/vs-logo-128.png` }]
   ],
   markdown: {
     code: {
@@ -15,7 +18,7 @@ module.exports = {
      level: [1, 2, 3, 4, 5, 6],
   },
   theme: defaultTheme({
-    logo: './images/vs-logo.ico',
+    logo: '/images/vs-logo.ico',
     repo: 'https://gitee.com/breath57/vsearch',
     repoLabel: "Gitee",
     docsDir: 'docs',
