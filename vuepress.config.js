@@ -4,11 +4,11 @@ const url_base = '/vs-docs'
 
 module.exports = {
   lang: 'zh-CN',
-  title: 'VSearcher官网',
+  title: 'VSearcher',
   description: '国内为数不多的教学视频内容检索Python库',
   base: url_base,
   head: [
-    // ['link', { rel: 'icon', href: `/vs-logo-128.png` }] # 本地调试 不用加 url_base
+    // ['link', { rel: 'icon', href: `/vs-logo-128.png` }] // 本地调试 不用加 url_base
     ['link', { rel: 'icon', href: `${url_base}/vs-logo-128.ico` }]
   ],
   markdown: {

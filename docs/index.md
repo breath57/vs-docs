@@ -1,7 +1,7 @@
 ---
 home: true
 
-
+title: 官网首页
 
 # actions:
 #   - text: 快速开始
@@ -147,6 +147,11 @@ heroImage: "/images/vs-logo.ico"
     margin: .2em;
 }
 
+.my-video-container{
+    width: 80%;
+    margin: 1em;
+}
+
 </style>
 
 <!-- <div class='logo'>
@@ -170,7 +175,7 @@ heroImage: "/images/vs-logo.ico"
 
 ## 简介
 
-结合AI算法，针对`教学类视频`的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该[vsearcher](https://gitee.com/breath57/vsearch)，并开源到[PyPI](https://pypi.org/project/vsearcher/), 核心使用方法见[VSearcher](./api)。
+结合AI算法，针对`教学类视频`的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该[vsearcher python库](https://gitee.com/breath57/vsearch)，并开源到[PyPI](https://pypi.org/project/vsearcher/), 核心使用方法见[VSearcher](./api)。
 
 为了展现该库的应用场景以及能力，研发了案例系统，包括：[Flask API](./demo/#搭建API服务)、[Docker](./demo/#方式2-docker搭建)、[Pyintaller打包的exe程序](./demo/#方式3-vs-api-exe程序搭建)。
 
@@ -208,13 +213,33 @@ heroImage: "/images/vs-logo.ico"
 </div>
 
 ## 核心能力效果展示
-### 视频内容搜索
+### 1. 视频内容搜索
 
-![视频内容搜索](/images/gif/video_search.gif)
+<video class="my-video-container" controls>
+  <source src="/video/search-content.mp4" type="video/mp4">
+  <object data="/video/search-content.mp4" class="my-video-container" >
+    <embed src="/video/search-content.swf" class="my-video-container" >
+  </object>
+</video>
 
-### 自动生成视频对应的pdf课件
+### 2. 搜索结果定位播放
 
-![下载课件](/images/gif/download_pdf.gif)
+<video class="my-video-container" controls>
+  <source src="/video/locate-content.mp4" type="video/mp4">
+  <object data="/video/locate-content.mp4" class="my-video-container" >
+    <embed src="/video/locate-content.swf" class="my-video-container" >
+  </object>
+</video>
+
+
+### 3. 自动生成视频对应的pdf课件
+
+<video class="my-video-container" controls>
+  <source src="/video/download-pdf.mp4" type="video/mp4">
+  <object data="/video/download-pdf.mp4" class="my-video-container" >
+    <embed src="/video/download-pdf.swf" class="my-video-container" >
+  </object>
+</video>
 
 <!-- <img src="/images/gif/download_pdf.gif" style="width: 40em;" /> -->
 
