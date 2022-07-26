@@ -6,7 +6,7 @@ module.exports = {
   description: '国内为数不多的教学视频内容检索Python库',
   base: '/vs-docs',
   head: [
-    ['link', { rel: 'icon', href: '/images/vs-logo.ico' }]
+    ['link', { rel: 'icon', href: '/vs-docs/images/vs-logo.ico' }]
   ],
   markdown: {
     code: {
@@ -15,7 +15,7 @@ module.exports = {
      level: [1, 2, 3, 4, 5, 6],
   },
   theme: defaultTheme({
-    logo: '/images/vs-logo.ico',
+    logo: './images/vs-logo.ico',
     repo: 'https://gitee.com/breath57/vsearch',
     repoLabel: "Gitee",
     docsDir: 'docs',
