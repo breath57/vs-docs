@@ -9,7 +9,7 @@ module.exports = {
   base: url_base,
   head: [
     // ['link', { rel: 'icon', href: `/vs-logo-128.png` }] # 本地调试 不用加 url_base
-    ['link', { rel: 'icon', href: `${url_base}/vs-logo-128.png` }]
+    ['link', { rel: 'icon', href: `${url_base}/vs-logo-128.ico` }]
   ],
   markdown: {
     code: {
