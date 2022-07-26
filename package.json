@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "vseacher文档",
   "main": "index.js",
-  "author": "breath57 <48155693+breath57@users.noreply.github.com>",
+  "author": "breath57 <https://gitee.com/breath57>",
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.49"

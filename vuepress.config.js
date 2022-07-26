@@ -2,10 +2,12 @@ const { defaultTheme } = require("vuepress");
 
 module.exports = {
   lang: 'zh-CN',
-  title: 'VSearcher',
-  description: '国内为数不多的视频内容检索Python库',
+  title: 'VSearcher官网',
+  description: '国内为数不多的教学视频内容检索Python库',
   base: '/vs-docs',
- 
+  head: [
+    ['link', { rel: 'icon', href: '/images/vs-logo.ico' }]
+  ],
   markdown: {
     code: {
          lineNumbers: true, // 是否显示代码行，多少行之后开始显示的配置呢
