@@ -384,15 +384,6 @@
     "@vuepress/utils" "2.0.0-beta.49"
     "execa" "^5.1.1"
 
-"@vuepress/plugin-google-analytics@^2.0.0-beta.49":
-  "integrity" "sha512-c9CcGl0wXw9AxhXPoG3x92OqaPcAvlD1HePEoZlJCzTh/CIkC4dyQT7DtgeJi9EPt09Oy4Btjm/rXVi/Y6TVwA=="
-  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-2.0.0-beta.49.tgz"
-  "version" "2.0.0-beta.49"
-  dependencies:
-    "@vuepress/client" "2.0.0-beta.49"
-    "@vuepress/core" "2.0.0-beta.49"
-    "@vuepress/utils" "2.0.0-beta.49"
-
 "@vuepress/plugin-medium-zoom@2.0.0-beta.49":
   "integrity" "sha512-Z80E/BhHnTQeC208Dw9D1CpyxONGJ3HVNd3dU3qJfdjX9o8GzkRqdo17aq4aHOeEPn0DQ04I/7sHFVgv41KGgw=="
   "resolved" "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-2.0.0-beta.49.tgz"
@@ -431,6 +422,19 @@
   dependencies:
     "@vuepress/core" "2.0.0-beta.49"
     "prismjs" "^1.28.0"
+
+"@vuepress/plugin-search@^2.0.0-beta.49":
+  "integrity" "sha512-XkI5FfqJUODh5V7ic/hjja4rjVJQoT29xff63hDFvm+aVPG9FwAHtMSqUHutWO92WtlqoDi9y2lTbpyDYu6+rQ=="
+  "resolved" "https://registry.npmmirror.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.49.tgz"
+  "version" "2.0.0-beta.49"
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.49"
+    "@vuepress/core" "2.0.0-beta.49"
+    "@vuepress/shared" "2.0.0-beta.49"
+    "@vuepress/utils" "2.0.0-beta.49"
+    "chokidar" "^3.5.3"
+    "vue" "^3.2.37"
+    "vue-router" "^4.1.2"
 
 "@vuepress/plugin-theme-data@2.0.0-beta.49":
   "integrity" "sha512-zwbnDKPOOljSz7nMQXCNefp2zpDlwRIX5RTej9JQlCdcPXyLkFfvDgIMVpKNx6/5/210tKxFsCpmjLR8i+DbgQ=="

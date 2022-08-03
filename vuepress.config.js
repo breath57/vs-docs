@@ -1,6 +1,5 @@
 const { defaultTheme } = require("vuepress");
-// const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics') // 谷歌统计插件
-
+const { searchPlugin } = require('@vuepress/plugin-search')
 const url_base = '/vs-docs'
 
 module.exports = {
@@ -30,10 +29,15 @@ module.exports = {
      level: [1, 2, 3, 4, 5, 6],
   },
   plugins: [
-    // googleAnalyticsPlugin({
-    //     // 配置项
-    //     'id': 'G-W31JCD52G9' // UA-00000000-0
-    // }),
+    searchPlugin({
+        locales: {
+        '/': {
+          placeholder: '搜索内容',
+            },
+        },
+        maxSuggestions: 10,
+        // getExtraFields: (page) => console.log("页面内容",page),
+    })
   ],
   theme: defaultTheme({
     logo: '/images/vs-logo.ico',
