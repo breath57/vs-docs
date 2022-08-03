@@ -1,5 +1,5 @@
 const { defaultTheme } = require("vuepress");
-const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics') // 谷歌统计插件
+// const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics') // 谷歌统计插件
 
 const url_base = '/vs-docs'
 
@@ -10,7 +10,18 @@ module.exports = {
   base: url_base,
   head: [
     // ['link', { rel: 'icon', href: `/vs-logo-128.png` }] // 本地调试 不用加 url_base
-    ['link', { rel: 'icon', href: `${url_base}/vs-logo-128.ico` }]
+    ['link', { rel: 'icon', href: `${url_base}/vs-logo-128.ico` }],
+    ["script", {},
+    `
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?69185a0206e4e778f2e17ae4e3a33820";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+        })();
+    `
+]
   ],
   markdown: {
     code: {
@@ -19,10 +30,10 @@ module.exports = {
      level: [1, 2, 3, 4, 5, 6],
   },
   plugins: [
-    googleAnalyticsPlugin({
-        // 配置项
-        'id': 'G-W31JCD52G9' // UA-00000000-0
-    }),
+    // googleAnalyticsPlugin({
+    //     // 配置项
+    //     'id': 'G-W31JCD52G9' // UA-00000000-0
+    // }),
   ],
   theme: defaultTheme({
     logo: '/images/vs-logo.ico',
