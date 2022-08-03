@@ -161,7 +161,7 @@ heroImage: "/images/vs-logo.ico"
 <div class='tag-container'>
 <a href="https://pypi.org/project/vsearcher/"><img src='https://img.shields.io/badge/最新版本-v0.2.16-3963bc.svg'/></a>
 <a><img src='https://img.shields.io/badge/build-passing-00d508.svg'/></a>
-<a><img src='https://img.shields.io/badge/license-MIT-f0f900.svg'/></a>
+<a><img src='https://img.shields.io/badge/license-LGPL_v3.0-f0f900.svg'/></a>
 </div>
 
 <div class='tag-container'>

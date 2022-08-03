@@ -1,4 +1,5 @@
 const { defaultTheme } = require("vuepress");
+const { googleAnalyticsPlugin } = require('@vuepress/plugin-google-analytics') // 谷歌统计插件
 
 const url_base = '/vs-docs'
 
@@ -17,6 +18,12 @@ module.exports = {
     },
      level: [1, 2, 3, 4, 5, 6],
   },
+  plugins: [
+    googleAnalyticsPlugin({
+        // 配置项
+        'id': 'G-W31JCD52G9' // UA-00000000-0
+    }),
+  ],
   theme: defaultTheme({
     logo: '/images/vs-logo.ico',
     repo: 'https://gitee.com/breath57/vsearch',
