@@ -216,20 +216,20 @@ heroImage: "/images/vs-logo.ico"
 ### 1. 视频内容搜索
 
 <video class="my-video-container" controls>
-  <source src="http://rfiup5az9.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Fsearch-content.mp4" type="video/mp4">
+  <source src="http://rh4kkoxmm.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Fsearch-content.mp4" type="video/mp4">
 </video>
 
 ### 2. 搜索结果定位播放
 
 <video class="my-video-container" controls>
-  <source src="http://rfiup5az9.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Flocate-content.mp4" type="video/mp4">
+  <source src="http://rh4kkoxmm.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Flocate-content.mp4" type="video/mp4">
 </video>
 
 
 ### 3. 自动生成视频对应的pdf课件
 
 <video class="my-video-container" controls>
-  <source src="http://rfiup5az9.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Fdownload-pdf.mp4" type="video/mp4">
+  <source src="http://rh4kkoxmm.bkt.clouddn.com/gitee%2Fbreath57%2Fvs-docs%2Fvideo%2Fdownload-pdf.mp4" type="video/mp4">
 </video>
 
 <!-- <img src="/images/gif/download_pdf.gif" style="width: 40em;" /> -->
