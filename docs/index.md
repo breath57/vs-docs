@@ -152,6 +152,14 @@ heroImage: "/images/vs-logo.ico"
     margin: 1em;
 }
 
+.question{
+    margin-top: 2rem;
+    padding: 0 1rem;
+    font-size: 1.47rem;
+    /* color: #C94B11; */
+    color: #deb767;
+    text-align: center;
+}
 </style>
 
 <!-- <div class='logo'>
@@ -171,15 +179,17 @@ heroImage: "/images/vs-logo.ico"
     <a><img src='https://img.shields.io/badge/opencv_python-v4.5.5-0fcff8.svg'/></a>
 </div>
 
-
+<div class="question">学完一套视频课程，某知识点遗忘，需要回顾，如何定位知识点所在的视频以及播放位置?</div>
 
 ## 简介
 
-结合AI算法，针对`教学类视频`的特点，发明视频内容检索方法，并申请了`发明专利`；基于该方法研发了该[vsearcher python库](https://gitee.com/breath57/vsearch)，并开源到[PyPI](https://pypi.org/project/vsearcher/), 核心使用方法见[VSearcher](./api)。
+使用**VSearcher库**可以非常容易实现[视频内容的搜索](./#_1-视频内容搜索)、[搜索结果定位播放](./#_2-搜索结果定位播放)的功能，从而解决上述问题。此外，还可[自动生成视频对应的pdf课件](./#_3-自动生成视频对应的pdf课件)。
 
-为了展现该库的应用场景以及能力，研发了案例系统，包括：[Flask API](./demo/#搭建API服务)、[Docker](./demo/#方式2-docker搭建)、[Pyintaller打包的exe程序](./demo/#方式3-vs-api-exe程序搭建)。
+该库目前已经在[PyPI](https://pypi.org/project/vsearcher/)发布和[Gitee](https://gitee.com/breath57/vsearch)开源, 提供[快速开始](./quick-start/index.md)文档和核心方法使用的API文档[VSearcher API](./api/index.md)。
 
 此外，可轻松适配如下特殊场景的视频：`动画切换`，`内容递增`，`中英文内容`，`存在人像移动`
+
+为方便开发者搭建API服务，研发了基于该库且可直接使用的[API服务案例项目](./demo/搭建API服务.md)和[HTTP 接口文档](./demo/vs-api/)，为了应对不同的部署需求，提供4种搭建方式：[常规搭建](./demo/搭建API服务/#方式1-常规搭建)、[Docker搭建](./demo/搭建API服务/#方式2-docker搭建)、[exe程序搭建](./demo/搭建API服务/#方式3-vs-api-exe程序搭建)和[修改配置自行打包搭建](./demo/搭建API服务/#方式4-改配置文件-打包)。
 
 ## 特性
 
