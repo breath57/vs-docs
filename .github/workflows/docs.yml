@@ -26,10 +26,10 @@ jobs:
           run_install: true
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4.0.3
         with:
           # 选择要使用的 node 版本
-          node-version: 20
+          node-version: 18.8
           # 缓存 pnpm 依赖
           cache: pnpm
 
