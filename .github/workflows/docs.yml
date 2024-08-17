@@ -35,4 +35,4 @@ jobs:
           build_dir: docs/.vuepress/dist
         env:
           # 如果你还需要其他环境变量，可以在这里添加
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
